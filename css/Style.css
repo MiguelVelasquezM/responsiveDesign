@@ -1,0 +1,67 @@
+*{
+	box-sizing: border-box;
+}
+.body{
+	margin: 0;
+	padding: 0;
+}
+.verde{
+	background-color: chartreuse;
+	height: 6rem;
+	
+}  
+.morado{
+	background-color: purple;
+	height: 38rem;
+}
+.naranja{
+	background-color:orange;
+	height: 35rem;
+}
+.rojo{
+	background-color: red;
+	height: 35rem;
+}
+.rosado{
+	background-color: pink;
+	height: 30%;
+}
+.amarillo{
+	background-color: yellow;
+	height: 70%; 
+}
+.verde1{
+	background-color: #07F2B0;
+	height: 20rem;
+}
+.verde2{
+	background-color: #088872;
+	height: 20rem;
+}
+.verde3{
+	background-color: #B7E632;
+	height: 20rem;
+}
+.row{
+	border-style: solid;
+	border-color: lightblue;
+}
+   /*aca comienza mi consulta d emedios*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .morado{
+	background-color: #87691B;
+	height: 38rem;
+	}
+	.row{
+	border-style: solid;
+	border-color: darkred;
+}
+.naranja{
+	background-color:#949BF2;
+	height: 35rem;
+}
+
+}
